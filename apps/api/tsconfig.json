@@ -1,0 +1,13 @@
+{
+  "extends": "@packages/tsconfig/nest.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "paths": {
+      "@packages/*": ["packages/*/src"]
+    },
+    "outDir": "./dist",
+    "baseUrl": "./"
+  },
+  "exclude": ["node_modules", "dist"]
+}

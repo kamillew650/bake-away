@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kamil Lewandowski",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest --config ./vite.config.ts",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vitest": "^0.28.3",
+    "prettier": "^2.3.2"
+  }
+}
